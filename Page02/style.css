@@ -9,3 +9,12 @@ body {
     overflow: hidden;
     animation: wave 8s infinite ease-in-out;
 }
+
+.login-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
