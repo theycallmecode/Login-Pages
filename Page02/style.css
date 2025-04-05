@@ -147,3 +147,16 @@ button::after {
 button:hover::after {
     width: 100%;
 }
+
+@keyframes wave {
+    0%, 100% { background-position: 0 0; }
+    50% { background-position: 100% 100%; }
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+@keyframes float {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(-10px); }
+}
