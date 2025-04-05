@@ -109,6 +109,14 @@ button:hover {
     animation: leafFloat 4s infinite ease-in-out;
 }
 
+.leaf3 {
+    width: 30px;
+    height: 30px;
+    bottom: 250px;
+    left: 295px;
+    animation: leafFloat 4s infinite ease-in-out;
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; transform: translateY(-20px); }
     100% { opacity: 1; transform: translateY(0); }
