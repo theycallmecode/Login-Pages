@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    background: url(naruto.jpg) no-repeat center;
+    background: url('../assets/images/naruto.jpg') no-repeat center;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -81,7 +81,7 @@ button:hover {
     left: 40%;
     width: 60px;
     height: 60px;
-    background: url('kunai.png') no-repeat center;
+    background: url('../assets/images/kunai.png') no-repeat center;
     background-size: contain;
     animation: kunaiSpin 2s infinite linear;
     transform-origin: center center;
@@ -91,7 +91,7 @@ button:hover {
     position: absolute;
     width: 20px;
     height: 20px;
-    background: url('leaf.png') no-repeat center;
+    background: url('../assets/images/leaf.png') no-repeat center;
     background-size: contain;
     opacity: 0.8;
     z-index: 0;
@@ -121,10 +121,12 @@ button:hover {
     0% { opacity: 0; transform: translateY(-20px); }
     100% { opacity: 1; transform: translateY(0); }
 }
+
 @keyframes kunaiSpin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
 @keyframes leafFloat {
     0% { transform: translateY(0) rotate(0deg); }
     50% { transform: translateY(10px) rotate(15deg); }
