@@ -32,3 +32,23 @@ body {
     z-index: 2;
     animation: fadeIn 1.5s ease-in-out;
 }
+
+h2 {
+    color: #ff6200;
+    text-shadow: 2px 2px 6px #000, 0 0 10px #ff6200;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: solid 2px #ff6200;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
