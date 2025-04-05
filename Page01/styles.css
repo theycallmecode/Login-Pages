@@ -83,5 +83,28 @@ button:hover {
     height: 50px;
     background: url('kunai.png') no-repeat center;
     background-size: contain;
+    opacity: 0.7;
     animation: kunaiSpin 2s infinite linear;
+}
+
+.leaf-effect {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url('leaf.png') no-repeat center;
+    background-size: contain;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.leaf1 {
+    top: 10px;
+    right: -25px;
+    animation: leafFloat 3s infinite ease-in-out;
+}
+
+.leaf2 {
+    bottom: 15px;
+    left: -20px;
+    animation: leafFloat 4s infinite ease-in-out;
 }
