@@ -89,3 +89,24 @@ h2 {
     filter: drop-shadow(0 0 5px rgba(255, 64, 64, 0.7));
     z-index: 2;
 }
+
+input {
+    margin: 15px 0;
+    padding: 12px;
+    border: 2px solid rgba(30, 144, 255, 0.7);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.1em;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+input:focus {
+    outline: none;
+    border-color: rgba(255, 64, 64, 0.8);
+    box-shadow: 0 0 10px rgba(255, 64, 64, 0.7);
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.9);
+}
