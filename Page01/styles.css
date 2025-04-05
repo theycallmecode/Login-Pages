@@ -77,14 +77,14 @@ button:hover {
 
 .kunai {
     position: absolute;
-    top: -20px;
-    left: -30px;
-    width: 50px;
-    height: 50px;
+    top: 15px;
+    left: 40%;
+    width: 60px;
+    height: 60px;
     background: url('kunai.png') no-repeat center;
     background-size: contain;
-    opacity: 0.7;
     animation: kunaiSpin 2s infinite linear;
+    transform-origin: center center;
 }
 
 .leaf-effect {
@@ -122,9 +122,8 @@ button:hover {
     100% { opacity: 1; transform: translateY(0); }
 }
 @keyframes kunaiSpin {
-    0% { transform: rotate(0deg) translateX(0); }
-    50% { transform: rotate(180deg) translateX(20px); }
-    100% { transform: rotate(360deg) translateX(0); }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 @keyframes leafFloat {
     0% { transform: translateY(0) rotate(0deg); }
