@@ -59,3 +59,18 @@ input:focus {
     box-shadow: 0 0 10px #ff6200;
 }
 
+button {
+    padding: 12px 25px;
+    background: #ff6200;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff6200;
+}
