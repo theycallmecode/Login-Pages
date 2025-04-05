@@ -18,3 +18,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.login-container::before {
+    content: '';
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background: inherit;
+    filter: blur(5px);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.8;
+}
