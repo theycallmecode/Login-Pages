@@ -64,3 +64,13 @@ body.signup-bg {
     text-align: center;
     overflow: hidden;
 }
+
+/* login & signup card dimension */
+.login-card.login {
+    width: 450px;
+}
+.login-card.signup {
+    width: 750px;
+    padding: 40px;
+}
+
