@@ -52,3 +52,15 @@ body.signup-bg {
     background: rgba(0, 204, 0, 0.1);
     border-radius: 5px;
 }
+
+/* login card base */
+.login-card {
+    position: relative;
+    padding: 50px;
+    background: rgba(20, 20, 20, 0.9);
+    border: 2px solid #00cc00;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0, 204, 0, 0.3), inset 0 0 15px rgba(0, 204, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+}
