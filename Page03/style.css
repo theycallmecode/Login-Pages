@@ -113,6 +113,26 @@ body.signup-bg {
     align-items: center;
 }
 
+/* login card form input */
+.login-card input,
+.login-card select {
+    padding: 15px;
+    border: 1px solid #00cc00;
+    border-radius: 8px;
+    background: rgba(40, 40, 40, 0.8);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* placeholder color */
+.login-card input::placeholder {
+    color: #999;
+}
+
+
+
 /* Animation Hell */
 @keyframes glow-hell {
     0% {
