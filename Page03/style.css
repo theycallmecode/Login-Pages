@@ -172,7 +172,17 @@ body.signup-bg {
     transform: scale(1.05);
 }
 
-
+/* zoro standing png */
+.katana {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    bottom: -30px;
+    right: -60px;
+    transform: rotate(20deg);
+    opacity: 0.6;
+    transition: all 0.5s ease;
+}
 
 /* Animation Hell */
 @keyframes glow-hell {
