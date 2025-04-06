@@ -17,3 +17,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* login background and animation */
+.login-bg {
+    background: url('../assets/images/ironman2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    animation: 
+        bgFadeIn 1s ease-out,
+        bgSlideIn 1.5s ease-out,
+        bgPulse 30s infinite ease-in-out;
+}
+
+/* signup background and animation */
+.signup-bg {
+    background: url('../assets/images/ironman1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    animation: 
+        bgFadeIn 1s ease-out,
+        bgSlideIn 1.5s ease-out,
+        bgPulse 30s infinite ease-in-out;
+}
