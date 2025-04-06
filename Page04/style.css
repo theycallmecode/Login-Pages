@@ -52,3 +52,16 @@ body {
     margin: 20px;
     overflow: hidden;
 }
+
+/* #login and #signup container */
+#login {
+    background: rgba(0, 0, 0, 0.85);
+    border: 2px solid #87CEEB;
+    box-shadow: 0 0 20px rgba(135, 206, 235, 0.5);
+}
+
+#signup {
+    background: rgba(0, 0, 0, 0.85);
+    border: 2px solid #FF0000;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
