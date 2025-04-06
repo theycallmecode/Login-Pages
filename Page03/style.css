@@ -43,3 +43,12 @@ body.signup-bg {
     letter-spacing: 1px;
     transition: all 0.3s ease;
 }
+
+/* nav hover effect */
+.nav-bar a:hover,
+.nav-bar a.active {
+    color: #00cc00; /* Zoro’s signature green */
+    text-shadow: 0 0 10px rgba(0, 204, 0, 0.8);
+    background: rgba(0, 204, 0, 0.1);
+    border-radius: 5px;
+}
