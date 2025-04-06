@@ -172,7 +172,7 @@ body.signup-bg {
     transform: scale(1.05);
 }
 
-/* zoro standing png */
+/* zoro standing png - bottom right */
 .zoropng {
     position: absolute;
     width: 200px;
@@ -184,9 +184,27 @@ body.signup-bg {
     transition: all 0.5s ease;
 }
 
-/* zoro png hover */
+/* zoro standing png - top left */
+.zoropng01 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: -30px;
+    left: -50px;
+    transform: rotate(-20deg);
+    opacity: 0.6;
+    transition: all 0.5s ease;
+}
+
+/* zoro png hover - bottom right */
 .login-card:hover .zoropng {
     transform: rotate(25deg) translateX(-20px);
+    opacity: 0.9;
+}
+
+/* zoro png hover - top left */
+.login-card:hover .zoropng01 {
+    transform: rotate(-25deg) translateX(20px);
     opacity: 0.9;
 }
 
