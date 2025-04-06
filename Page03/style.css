@@ -83,3 +83,17 @@ body.signup-bg {
     letter-spacing: 3px;
     text-shadow: 0 0 15px rgba(0, 204, 0, 0.6);
 }
+
+/* welcome to hell */
+.login-card h2.welcome-to-hell {
+    color: #ff4500; /* Fiery orange for a hellish vibe */
+    text-shadow: 0 0 20px rgba(255, 69, 0, 0.8);
+    animation: glow-hell 2s infinite ease-in-out;
+}
+
+/* join straw hats */
+.login-card h2.join-straw-hats {
+    color: #fff; /* Base white color */
+    text-shadow: 0 0 20px rgba(0, 204, 0, 0.8);
+    animation: glow-straw 2s infinite ease-in-out;
+}
