@@ -14,3 +14,11 @@ body {
     background-position: center;
     overflow: hidden;
 }
+
+/* login signup bg image */
+body.login-bg {
+    background: linear-gradient(rgba(10, 20, 30, 0.6), rgba(10, 20, 30, 0.6)), url('../assets/images/zoro2.jpg') no-repeat center/cover;
+}
+body.signup-bg {
+    background: linear-gradient(rgba(20, 10, 10, 0.6), rgba(20, 10, 10, 0.6)), url('../assets/images/zoro3.jpg') no-repeat center/cover;
+}
