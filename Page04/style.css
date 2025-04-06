@@ -194,3 +194,39 @@ h2 {
     transform: scale(1.03);
 }
 
+/* styling toggle */
+.toggle {
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+/* login toggle */
+#login .toggle a {
+    color: #87CEEB;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* login toggle hover */
+#login .toggle a:hover {
+    color: #00BFFF;
+    text-shadow: 0 0 5px rgba(135, 206, 235, 0.7);
+}
+
+/* sign up toggle */
+#signup .toggle a {
+    color: #FF0000;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* sign up toggle hover */
+#signup .toggle a:hover {
+    color: #FF4500;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);
+}
+
