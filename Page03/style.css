@@ -74,3 +74,12 @@ body.signup-bg {
     padding: 40px;
 }
 
+/* login card h2 base */
+.login-card h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px rgba(0, 204, 0, 0.6);
+}
