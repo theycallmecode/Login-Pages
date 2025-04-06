@@ -22,3 +22,24 @@ body.login-bg {
 body.signup-bg {
     background: linear-gradient(rgba(20, 10, 10, 0.6), rgba(20, 10, 10, 0.6)), url('../assets/images/zoro3.jpg') no-repeat center/cover;
 }
+
+/* nav bar */
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(to bottom, #1a2a2f, transparent);
+    text-align: center;
+    z-index: 10;
+}
+.nav-bar a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 25px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
