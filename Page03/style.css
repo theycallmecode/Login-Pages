@@ -131,6 +131,47 @@ body.signup-bg {
     color: #999;
 }
 
+/* login card hover */
+.login-card input:hover,
+.login-card input:focus,
+.login-card select:hover,
+.login-card select:focus {
+    border-color: #00ff00;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    background: rgba(50, 50, 50, 0.9);
+}
+
+/* login select bg */
+.login-card select {
+    appearance: none;
+    background: rgba(40, 40, 40, 0.8) url('data:image/svg+xml;utf8,<svg fill="%2300cc00" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 15px center;
+}
+
+/* Login card input button */
+.login-card input[type="submit"] {
+    background: linear-gradient(90deg, #00cc00, #009900);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.login-card.signup input[type="submit"] {
+    grid-column: span 2;
+    margin-top: 15px;
+}
+
+/* input button hover */
+.login-card input[type="submit"]:hover {
+    background: linear-gradient(90deg, #00ff00, #00cc00);
+    box-shadow: 0 0 25px rgba(0, 255, 0, 0.8);
+    transform: scale(1.05);
+}
+
 
 
 /* Animation Hell */
