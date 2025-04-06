@@ -59,9 +59,27 @@ body {
     border: 2px solid #87CEEB;
     box-shadow: 0 0 20px rgba(135, 206, 235, 0.5);
 }
-
 #signup {
     background: rgba(0, 0, 0, 0.85);
     border: 2px solid #FF0000;
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+/* styling h2 tag */
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    position: relative;
+    z-index: 2;
+}
+#login h2 {
+    color: #87CEEB;
+    text-shadow: 0 0 10px rgba(135, 206, 235, 0.7);
+}
+#signup h2 {
+    color: #FF0000;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
 }
