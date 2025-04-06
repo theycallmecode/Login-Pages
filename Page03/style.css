@@ -98,6 +98,21 @@ body.signup-bg {
     animation: glow-straw 2s infinite ease-in-out;
 }
 
+/* Login form */
+.login-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* signup form */
+.login-card.signup form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 35px;
+    align-items: center;
+}
+
 /* Animation Hell */
 @keyframes glow-hell {
     0% {
