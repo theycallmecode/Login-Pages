@@ -184,6 +184,12 @@ body.signup-bg {
     transition: all 0.5s ease;
 }
 
+/* zoro png hover */
+.login-card:hover .katana {
+    transform: rotate(25deg) translateX(-20px);
+    opacity: 0.9;
+}
+
 /* Animation Hell */
 @keyframes glow-hell {
     0% {
