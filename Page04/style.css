@@ -83,3 +83,54 @@ h2 {
     color: #FF0000;
     text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
 }
+
+/* form dimension */
+.form-content {
+    padding: 5px 0;
+    position: relative;
+    z-index: 2;
+}
+
+/* input box basic */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* styling input box */
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* coloring input box - login */
+#login .input-box input:focus,
+#login .input-box input:valid {
+    border-bottom-color: #87CEEB;
+    box-shadow: 0 2px 10px rgba(135, 206, 235, 0.5);
+}
+
+/* coloring input box - sign up */
+#signup .input-box input:focus,
+#signup .input-box input:valid {
+    border-bottom-color: #FF0000;
+    box-shadow: 0 2px 10px rgba(255, 0, 0, 0.5);
+}
+
+/* input box - label tag */
+.input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: #FFFFFF;
+    pointer-events: none;
+    transition: 0.3s;
+}
