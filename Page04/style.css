@@ -364,3 +364,81 @@ h2 {
     animation: textPulse 2s ease-in-out infinite;
 }
 
+/* adding keyframes */
+
+/* rotate reactor */
+@keyframes rotateReactor {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* pulse glow h2 */
+@keyframes pulseGlow {
+    0% { filter: drop-shadow(0 0 5px rgba(0, 191, 255, 0.7)); }
+    50% { filter: drop-shadow(0 0 20px rgba(0, 191, 255, 1)); }
+    100% { filter: drop-shadow(0 0 5px rgba(0, 191, 255, 0.7)); }
+}
+
+/* text pulse */
+@keyframes textPulse {
+    0%, 100% { opacity: 0.7; }
+    50% { opacity: 1; }
+}
+
+
+/* Add these new animations at the top */
+@keyframes bgFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* background slide-in effect */
+@keyframes bgSlideIn {
+    from { background-position: 20% center; }
+    to { background-position: center center; }
+}
+
+/* background pulse effect */
+@keyframes bgPulse {
+    0% { background-size: 100% auto; }
+    50% { background-size: 105% auto; }
+    100% { background-size: 100% auto; }
+}
+
+/* background fade-out effect */
+@keyframes bgFadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* fade-out */
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* flip-in */
+@keyframes flipIn {
+    0% { transform: perspective(400px) rotateY(90deg); opacity: 0; }
+    100% { transform: perspective(400px) rotateY(0deg); opacity: 1; }
+}
+
+/* pulse */
+@keyframes pulse {
+    0% { transform: translateX(-50%) scale(1); opacity: 0.7; }
+    50% { transform: translateX(-50%) scale(1.1); opacity: 1; }
+    100% { transform: translateX(-50%) scale(1); opacity: 0.7; }
+}
+
+/* reactor glow effect */
+@keyframes reactorGlow {
+    0%, 100% { box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); }
+    50% { box-shadow: 0 0 25px rgba(255, 255, 255, 0.6); }
+}
+
+/* scan effect */
+@keyframes scan {
+    0% { top: 0; opacity: 0.8; }
+    50% { top: 100%; opacity: 0.3; }
+    100% { top: 0; opacity: 0.8; }
+}
