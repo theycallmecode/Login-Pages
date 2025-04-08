@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Trainer Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="page-title">Pokémon Trainer Card</h1>
+    <div class="info-world">
+        <div class="wind-breeze"></div>
+        <div class="trainer-card" id="trainer-card">
+            <div class="trainer-visuals">
+                <img id="trainer-pic" src="" alt="Trainer Pic" class="npc-hover">
+                <img id="starter-pic" src="" alt="Starter Pokémon" class="pokemon-hover">
+            </div>
+            <div class="trainer-info">
+                <h2 class="glow-text pokemon-title">Trainer Card</h2>
+                <p class="pokemon-text"><span class="label">Name:</span> <span id="card-name"></span></p>
+                <p class="pokemon-text"><span class="label">Region:</span> <span id="card-region"></span></p>
+                <p class="pokemon-text"><span class="label">Starter:</span> <span id="card-starter"></span></p>
+                <p class="pokemon-text"><span class="label">Badges Earned:</span> 0</p>
+                <button id="register-new" class="pokeball-btn">Register New Trainer</button>
+            </div>
+            <div class="region-map" id="region-map"></div>
+        </div>
+    </div>
+    <script src="info.js"></script>
+</body>
+</html>
